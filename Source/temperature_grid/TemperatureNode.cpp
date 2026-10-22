@@ -9,8 +9,8 @@
 #include "Misc/MessageDialog.h"
 #include <iostream>
 
-#include <F:\studium\grib2dec-master(1)\grib2dec-master\include\grib2dec\grib2dec.hpp>
-#include <F:\studium\grib2dec-master(1)\grib2dec-master\include\grib2dec\types.h>
+#include <grib2dec/grib2dec.hpp>
+#include <grib2dec/types.h>
 
 ATemperatureNode::ATemperatureNode()
 {

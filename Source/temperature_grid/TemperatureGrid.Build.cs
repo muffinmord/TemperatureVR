@@ -12,8 +12,11 @@ public class temperature_grid : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
-        PublicIncludePaths.Add(
-           @"F:\studium\grib2dec-master(1)\grib2dec-master\include"
+        PrivateIncludePaths.Add(
+            Path.Combine(
+                ModuleDirectory,
+                "../../ThirdParty/grib2dec-master/include"
+            )
         );
-    }
+	}
 }

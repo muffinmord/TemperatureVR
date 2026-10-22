@@ -44,7 +44,7 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Temperature|Data",
         meta = (FilePathFilter = "GRIB2 Files (*.grib2)|*.grib2|All Files (*.*)|*.*"))
-    FString GR2FilePath = TEXT("C:/Weather/temperature.grib2");
+    FString GR2FilePath = TEXT("ThirdParty/grib2-dataset/2MT.2D.201804_subset.nc");
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Temperature|Display")
     float MinTemperature = -20.0f;
